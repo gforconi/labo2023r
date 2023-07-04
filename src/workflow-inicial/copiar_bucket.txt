@@ -1,0 +1,1 @@
+gsutil cp -r gs://geronimoaustralito/exp/* gs://geronimoaustralito/exp2
