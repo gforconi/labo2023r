@@ -1,1 +1,12 @@
 gsutil cp -r gs://geronimoaustralito/exp/* gs://geronimoaustralito/exp2
+
+kaggle competitions list
+
+export KAGGLE_USERNAME=geronimoforconi
+export KAGGLE_KEY='50abbbc4e4c5370ae0f5f25c69e96a39'
+
+kaggle competitions submit -c laboratorio-de-imp-i-rosario-2023 -f buckets/b1/exp/ZZ7710/ZZ7710_01_026_09500p.csv -m "Message";
+kaggle competitions submit -c laboratorio-de-imp-i-rosario-2023 -f buckets/b1/exp/ZZ7710/ZZ7710_01_026_10000p.csv -m "Message";
+kaggle competitions submit -c laboratorio-de-imp-i-rosario-2023 -f buckets/b1/exp/ZZ7710/ZZ7710_01_026_10500p.csv -m "Message";
+kaggle competitions submit -c laboratorio-de-imp-i-rosario-2023 -f buckets/b1/exp/ZZ7710/ZZ7710_01_026_11000p.csv -m "Message";
+kaggle competitions submit -c laboratorio-de-imp-i-rosario-2023 -f buckets/b1/exp/ZZ7710/ZZ7710_01_026_11500p.csv -m "Message"
