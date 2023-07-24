@@ -1,4 +1,4 @@
-gsutil cp -r gs://geronimoaustralito/exp/* gs://geronimoaustralito/exp2
+gsutil cp -r gs://geronimoaustralito/exp/* gs://geronimoaustralito/exp20230719
 
 kaggle competitions list
 
